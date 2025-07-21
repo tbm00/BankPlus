@@ -136,7 +136,7 @@ public class BPData {
         PluginManager plManager = plugin.getServer().getPluginManager();
 
         plManager.registerEvents(new PlayerServerListener(), plugin);
-        plManager.registerEvents(new UpdateChecker(), plugin);
+        //plManager.registerEvents(new UpdateChecker(), plugin);
         plManager.registerEvents(new AFKListener(plugin), plugin);
         plManager.registerEvents(new InventoryCloseListener(), plugin);
         plManager.registerEvents(new BPTransactionListener(), plugin);
